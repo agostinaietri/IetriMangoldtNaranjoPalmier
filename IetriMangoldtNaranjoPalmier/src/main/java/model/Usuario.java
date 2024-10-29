@@ -1,26 +1,31 @@
 package model;
 
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import jakarta.persistence.*;
 
 @Entity
-@Getter
-@Setter
-@Data
-@Table(name="usuarios")
+@Table(name = "usuario")
 public class Usuario {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Column(name = "id_usuario")
+    private Integer idUsuario;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "tipo_usuario", nullable = false)
+    private TipoUsuario tipoUsuario;
+
+    @Column(name = "nombre", length = 100)
     private String nombre;
-    private String email;
+
+    @Column(name = "dni", length = 8, unique = true)
+    private String dni;
 
     // Getters y setters
+
+    public enum TipoUsuario {
+        ADMINISTRADOR,
+        TRANSPORTISTA,
+        OPERADOR
+    }
 }
