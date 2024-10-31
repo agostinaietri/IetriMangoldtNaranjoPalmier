@@ -21,4 +21,8 @@ public class Camion {
     private Ciudad ciudadActual;
 
     // Getters y setters
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'agostina' of https://github.com/agostinaietri/IetriMangoldtNaranjoPalmier.git

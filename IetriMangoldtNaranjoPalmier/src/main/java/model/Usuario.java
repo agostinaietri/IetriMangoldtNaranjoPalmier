@@ -28,4 +28,8 @@ public class Usuario {
         TRANSPORTISTA,
         OPERADOR
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'agostina' of https://github.com/agostinaietri/IetriMangoldtNaranjoPalmier.git

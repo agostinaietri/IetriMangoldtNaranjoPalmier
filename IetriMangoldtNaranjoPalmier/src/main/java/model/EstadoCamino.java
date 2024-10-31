@@ -22,4 +22,8 @@ public class EstadoCamino {
     private String estadoClima;
 
     // Getters y setters
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'agostina' of https://github.com/agostinaietri/IetriMangoldtNaranjoPalmier.git

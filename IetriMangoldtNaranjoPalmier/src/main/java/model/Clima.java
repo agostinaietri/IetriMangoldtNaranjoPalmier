@@ -15,4 +15,8 @@ public class Clima {
     private String estado;
 
     // Getters y setters
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'agostina' of https://github.com/agostinaietri/IetriMangoldtNaranjoPalmier.git

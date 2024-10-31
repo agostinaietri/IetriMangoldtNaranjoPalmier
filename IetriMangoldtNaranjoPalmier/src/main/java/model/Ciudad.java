@@ -14,4 +14,8 @@ public class Ciudad {
     private String nombre;
 
     // Getters y setters
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'agostina' of https://github.com/agostinaietri/IetriMangoldtNaranjoPalmier.git
